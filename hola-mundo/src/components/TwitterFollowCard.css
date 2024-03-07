@@ -1,0 +1,95 @@
+.article {
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	background-color: rgba(247, 249, 249, 1.00);
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.header {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.info {
+	display: flex;
+	margin-left: 16px;
+	flex-direction: column;
+}
+
+.info strong {
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.info strong:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.info span {
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.card {
+	padding: 16px;
+	display: flex;
+	column-gap: 16px;
+	height: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+	padding: 16px;
+	font-size: 24px;
+	color: rgba(0, 0, 0, 0.8);
+	margin: 0;
+}
+
+button {
+	width: fit-content;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 16px;
+	background-color: rgba(0, 0, 0);
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.show-more {
+	padding: 16px;
+	display: flex;
+	justify-content: start;
+	border-radius: 0px 0px 16px 16px;
+}
+
+.show-more:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+.show-more a {
+	text-decoration: none;
+	color: rgb(26, 152, 255);
+	font-size: 14px;
+}
