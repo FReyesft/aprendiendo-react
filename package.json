@@ -1,5 +1,5 @@
 {
-  "name": "aprendiendo-react",
+  "name": "junior-test",
   "version": "1.0.0",
   "description": "learning react",
   "main": "index.js",
@@ -7,5 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": []
 }
